@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+.header{
+    background-color:rgb(237, 235, 235);
+    height: 110px;
+    width:100%;
+    display: flex;
+    position: fixed;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.option ul{
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 200PX;
+    
+}
+.option ul li{
+    margin-left: 20px;
+    text-decoration: none; 
+    display: inline; 
+    justify-content: space-between; 
+}
+.option ul a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgb(13, 12, 12) ;
+    border-right:rgb(103, 10, 10) solid  ;
+    border-bottom:rgb(103, 10, 10) solid  ;
+    border-width: 5px;
+    background-color: white;
+    border-radius: .5rem;
+}
+.option ul li :hover{
+    background-color:white ;
+    color:rgb(103, 10, 10) ;
+    border-top:rgb(103, 10, 10) solid;
+    border-left:rgb(103, 10, 10) solid;
+    border-right:none;
+    border-bottom:none ;
+    border-width: 5px;
+    transition: .1s;
+}
+.portfilo{
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.portfilo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    border-right: rgb(103, 10, 10) solid  ;
+    border-width: 5px;
+    margin-left: 20px;
+
+}
+.portfilo p{
+    color: rgb(103, 10, 10);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 15px;
+
+} 
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.home .content{
+    margin-top: 300px;
+    margin-left: 250px;
+
+}
+.home .content h1{
+    color: rgb(103, 10, 10);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.home .content p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkgray;
+}
+.home_img{
+    margin-top: 200px;
+    margin-right: 250px; 
+}
+.home_img img{
+    height: 400px;
+    width: 400px;
+    border-radius: 1.8rem;
+    border-right: rgb(103, 10, 10) solid  ;
+    border-width: 30px;
+    
+}
+.content1{
+    display:flex;
+    justify-content: space-between;
+    height: 90vh;
+    background-color: rgb(237, 235, 235);
+}
+.content1_img{
+    margin-top: 50px;
+    margin-left: 250px; 
+}
+.content1_img img{
+    height: 400px;
+    width: 400px;
+    border-radius: 1.8rem;
+    border-left: rgb(103, 10, 10) solid  ;
+    border-width: 30px;
+}
+.content1_con{
+    margin-top: 47px;
+    margin-right: 250px;
+   background-color:white;
+   height: 11cm;
+   width: 15cm;
+   border-radius: 1.2rem;
+   border-right:rgb(103, 10, 10) solid ;
+   border-width: 30px;
+}
+.content1_con .frist{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.content1_con .second{
+    color: darkgray;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+.content2{
+    height:88vh;
+    margin-top: 20px;
+}
+.content1_con h3 span{
+    color:rgb(103, 10, 10) ;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.content1_con h3{
+    font-weight: bolder;
+    font-size: 25px; 
+    margin-left: 10px;
+}
+
+.content2 .con2{
+    color:black;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.content2 .con2 span{
+    color:rgb(103, 10, 10) ;
+
+}
+.content2_skiils{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    height: 80vh;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+.skills1{
+    text-align: center;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 1.2rem ;
+    border: solid rgb(237, 235, 235)  ;
+    border-right: rgb(103, 10, 10) solid;
+    border-width: 10px;
+    cursor: pointer;
+}
+.skills1 h2{
+    color: rgb(103, 10, 10) ;
+    font-size: 25px;
+    font-weight: bolder ;
+}
+.skills1 p{
+    font-size: 20px;
+    font-weight: bolder ; 
+    color: darkgray; 
+    text-align: center;
+}
+.skills1 p span{
+    font-size: 20px;
+    font-weight: bolder ; 
+    color: rgb(103, 10, 10)  ;  
+}
+.skills1 h3{
+    color: white ;
+    font-size: 20px;
+    font-weight: bolder ;
+    border-radius: 1.2rem;
+    border:darkgray solid ;
+    width: 250px;
+    margin-left: 12px;
+    background-color: rgb(103, 10, 10);
+}
+.content3{
+    height: 100vh;
+    background-color: rgb(237, 235, 235);
+    /* border-top: rgb(103, 10, 10) solid; */
+    /* display: flex; */
+    
+
+}
+.content3  p{
+    padding-top: 20px;
+    /* margin-top: 30px; */
+    /* border: black solid; */
+    color:black;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.content3 .con3 span{
+    color:rgb(103, 10, 10) ;
+
+}
+.content3 form{
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 13cm;
+    width: 12cm;
+    background-color: white;
+    border-radius: 1.2rem;
+    border-left:rgb(103, 10, 10)  solid;
+    border-width: 20px;
+    text-align: center;
+}
+.content3 label{
+    color:rgb(103, 10, 10)  ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.content3 input{
+    margin:20px;
+    border: darkgray solid ;
+    height: 1cm;
+    width: 10cm;
+    border-radius: 1.2rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(59, 59, 59);
+}
+.content3 .area{
+    height: 3cm;
+    width: 10cm;
+}
+.content3 button{
+    color: white;
+    background-color:rgb(103, 10, 10) ;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: .5rem;
+    border: darkgray solid;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.socialMedia{
+    margin-top: 100px;
+    margin-right: 80px;
+    height: 12cm;
+    border-left:rgb(103, 10, 10) solid ;
+    border-radius: 1.2rem;
+    border-width: 20px;
+    background-color: white;
+}
+
+.socialMedia i{
+    font-size: 55px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.socialMedia .face {
+    color: #3b5998 ;
+}
+.socialMedia .you {
+    color: red ;
+}
+.socialMedia .twi {
+    color: #109de9 ;
+}
+.socialMedia .link {
+    color: #0f6ea2 ;
+}
+.team{
+    height: 13cm;
+    width: 15cm;
+    margin-top: 80px;
+    display: inline-block;
+    margin-right: 30px;
+    background-color: white;
+    border-left:rgb(103, 10, 10) solid ;
+    border-width: 20px;
+    border-radius: 1.2rem;
+}
+.team_area{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+}
+.team_con{
+    height: 150px;
+    width: 200px;
+    border: darkgray solid;
+    margin-bottom: 20px;
+    border-radius: .8rem;
+    
+   
+}
+.team_con img{
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    /* margin-left: 65px; */
+    border-radius: 3rem;
+    border:rgb(103, 10, 10) solid ;
+    
+}
+.team span{
+    color:rgb(103, 10, 10)  ;
+}
+.team_con p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.projects h3{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.projects{
+    background-color: rgb(237, 235, 235);
+
+}
+.projects h3 span{
+    color: rgb(103, 10, 10);
+}
+.pro{
+    height: 6cm;
+    width: 5cm;
+    border:rgb(103, 10, 10) solid;
+    background-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-radius: .8rem;
+    margin: 30px;
+    
+}
+.proj{
+    margin-left: 250px;
+    display: flex;
+    justify-content:first baseline;
+    text-align: center;
+}
+.pro h4{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(103, 10, 10);
+    
+}
+.pro p{
+    margin: 2px;
+    margin-top: 20px;
+    font-size: 15px;
+    /* margin: 20px; */
+    color:rgb(136, 135, 135) ; 
+    font-weight: bolder;
+}
+.pro a{
+    text-decoration: none;
+    color:whitesmoke;
+    margin-bottom: 20px;
+    border: rgb(103, 10, 10) solid;
+    background-color:  rgb(103, 10, 10);
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: .5rem;
+}
+.pro a:hover{
+    color:white;
+    background-color:black;
+    border: none;
+    transition: .4s;
+}
+/* للهواتف الذكية */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* للأجهزة اللوحية */
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+/* لأجهزة الكمبيوتر */
+@media (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        padding: 30px;
+    }
+}
